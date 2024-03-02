@@ -1,0 +1,13 @@
+(undo-tree-save-format-version . 1)
+"f9f5103bf45d92a19907feaa70b00eb80cbe1753"
+[nil nil nil nil (26056 17044 973413 218000) 0 nil]
+([nil nil ((#("[TIME_DATE]
+command=date +\" %a, %d %b - %H:%M:%S\"
+interval=1
+" 0 1 (fontified t) 1 10 (fontified t face font-lock-type-face) 10 12 (fontified t) 12 19 (fontified t face font-lock-variable-name-face) 19 26 (fontified t) 26 49 (fontified t face font-lock-string-face) 49 50 (fontified t) 50 58 (fontified t face font-lock-variable-name-face) 58 61 (fontified t)) . 738) (undo-tree-id2 . -12) (undo-tree-id3 . -61) (undo-tree-id4 . -61) (undo-tree-id5 . 61) (undo-tree-id6 . -1) (undo-tree-id7 . 51) (undo-tree-id8 . -11) (t 26056 16742 147572 736000)) nil (26056 17044 973411 479000) 0 nil])
+([nil nil ((1 . 2)) nil (26056 17044 973400 619000) 0 nil])
+([nil nil ((1 . 2)) nil (26056 17044 973400 223000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 61 . 62) (nil fontified nil 59 . 62) (nil fontified nil 51 . 59) (nil fontified nil 50 . 51) (nil fontified nil 27 . 50) (nil fontified nil 20 . 27) (nil fontified nil 13 . 20) (nil fontified nil 11 . 13) (nil fontified nil 2 . 11) (nil fontified nil 1 . 2) (1 . 62)) nil (26056 17044 973399 333000) 0 nil])
+([nil current ((#("
+" 0 1 (fontified t)) . -62) (undo-tree-id0 . -1) (undo-tree-id1 . -1) 63) nil (26056 17044 973394 330000) 0 nil])
+nil
