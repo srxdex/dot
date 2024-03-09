@@ -1,4 +1,3 @@
-
 #set key to win
 set $mod Mod4
 
@@ -20,13 +19,16 @@ floating_modifier $mod
 #tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec warp-terminal
+bindsym $mod+Return exec gnome-terminal
 
 # kill focused window
 bindsym $mod+q kill
 
 # start rofi configured
-bindsym $mod+d exec /home/dex/.config/rofi/files/launchers/type-7/launcher.sh
+bindsym $mod+Shift+d exec dmenu_run 
+
+bindsym $mod+d exec ~/.config/rofi/launchers/type-7/launcher.sh
+
 
 # change focus
 bindsym $mod+j focus left
@@ -174,22 +176,12 @@ exec compton
 
 
 # screen layout
-exec .screenlayout/d.sh
+#exec .screenlayout/d.sh
 
 #disable hover 
 
 #focus_follows_mouse no
 
-bindsym $mod+m exec --release xdotool  click 1
+#capturar screenshots
 
 bindsym $mod+Shift+s exec xfce4-screenshooter  -r -S
-
-
-# set dysplay number
-
-workspace 1 output HDMI-1
-workspace 2 output DP-2
-workspace 3 output eDP-1
-
-
-
