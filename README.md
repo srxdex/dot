@@ -1,9 +1,6 @@
 # dot
 
-
-
 ## needed apps
-
 
 `sudo apt install xfce4-screenshooter nitrogen compton i3blocks i3 fonts-powerline curl git rofi`
 
@@ -11,7 +8,7 @@
 
 `bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"`
 
-## install rofi candy-eye
+## install rofi eye-candy
 
 ### clone rofi
 
